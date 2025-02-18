@@ -8,7 +8,7 @@
 
 body {
     font-family: PT Sans, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1.5;
     box-sizing: inherit;
     max-width: 100vw;
@@ -25,6 +25,11 @@ header {
     background-size: cover;
     padding: 2rem 0;
     text-shadow: 1px 1px 1px rgb(80, 79, 79);
+}
+
+header {
+    width: 100%;
+    padding: 10px;
 }
 
 header nav {                                  
@@ -102,7 +107,7 @@ h3 {
 
 .our-team-wrapper,
 .offer {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 2.5rem 0;
     text-align: center;
@@ -228,6 +233,13 @@ h3 {
     padding: 0;
 }
 
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .motivation li {
         padding: 0px 30px 30px 30px;
         flex-basis: 33%;
@@ -257,7 +269,7 @@ h3 {
     text-align: center;
     flex: 0 0 35%;
     box-shadow: 0 0.3rem 1rem 0.3rem rgba(0, 0, 0, 0.3);
-} 
+}
 
 .blog-news .content {
     width: 15rem;
